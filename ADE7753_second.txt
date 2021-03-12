@@ -1,0 +1,96 @@
+Configuration	ADE7753_second
+STM32CubeMX 	5.2.1
+Date	10/21/2019
+MCU	STM32F103C6Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC2	IN1	ADC2_IN1	PA1
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	led
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	ADC1_IN0	
+11	PA1	ADC2_IN1	
+14	PA4	GPIO_Output	CS
+15	PA5	SPI1_SCK	
+16	PA6	SPI1_MISO	
+17	PA7	SPI1_MOSI	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN0	ADC1_IN0	PA0-WKUP
+ADC2	IN1	ADC2_IN1	PA1
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM2	Internal Clock	TIM2_VS_ClockSourceINT	VP_TIM2_VS_ClockSourceINT
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	led
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	ADC1_IN0	
+11	PA1	ADC2_IN1	
+14	PA4	GPIO_Output	CS
+15	PA5	SPI1_SCK	
+16	PA6	SPI1_MISO	
+17	PA7	SPI1_MOSI	
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ADE7753_second
+Project Folder : C:\STM32F  CODE\ADE7753_second
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
